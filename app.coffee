@@ -19,7 +19,7 @@ app.enable 'trust proxy'
 # load route rules
 require('./rules')(webot)
 
-PORT = 3000
+PORT = process.env.VCAP_APP_PORT or 3000
 app.listen PORT, ->
   log "Listening on #{PORT}"
 
