@@ -26,6 +26,6 @@ webot -h # 使用 -h 或 --help 查看使用帮助
 
 ## Credit
 
-修改自@ktmud的[weixin-robot-example][robot-example]。
+修改自[@ktmud](://github.com/ktmud)的[weixin-robot-example][robot-example]。
 
 [robot-example]: https://github.com/ktmud/weixin-robot-example
